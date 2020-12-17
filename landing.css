@@ -1,0 +1,77 @@
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f336e3), to(#ac51a4));
+  background-image: linear-gradient(to right, #f336e3, #ac51a4);
+  height: 100%;
+  width: 100%;
+}
+
+.main .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .row .main-photo {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.main .row .main-image {
+  display: fixed;
+  bottom: 0;
+  right: 0;
+  height: 80vh;
+  padding-top: 20vh;
+}
+
+.main .row .main-text {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  padding-top: 20vh;
+  padding-left: 10vh;
+}
+
+.main .row .main-text h1 {
+  font-family: 'Sitka Display',sans-serif;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.main .row .main-text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.2em;
+  color: #650061;
+  margin-top: 0;
+}
+
+.main .row .main-text .main-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.2em;
+  color: #650061;
+  background-color: white;
+  border-radius: 25px;
+  text-align: center;
+  width: 23vw;
+  padding: 3px;
+}
+
+.main .row .main-text .main-brand {
+  color: #650061;
+  font-size: 0.8em;
+  display: fixed;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10vh;
+  bottom: 25px;
+  left: 0;
+}
+/*# sourceMappingURL=landing.css.map */

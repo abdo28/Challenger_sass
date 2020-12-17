@@ -1,0 +1,75 @@
+$main-color: #650061;
+html {
+    body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+}
+
+.main{  
+    background-image: linear-gradient(to right, #f336e3, #ac51a4);
+    height: 100%;
+    width:100%;
+    .row{
+        display:flex;
+
+        .main-photo{
+            flex:30%;
+        }
+        .main-image{
+            display: fixed;
+            bottom: 0;
+            right: 0;
+            height: 80vh;
+            padding-top: 20vh;
+        }
+        
+        .main-text{
+            flex: 70%;
+            padding-top: 20vh;
+            padding-left: 10vh;
+
+            h1{
+                font-family: 'Sitka Display',sans-serif;
+                font-size: 3em;
+                color:white;
+                margin-bottom: 3px;
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+                font-size:2.2em;
+                color:$main-color;
+                margin-top:0;
+            }
+            .main-btn{
+                font-family: 'Open Sans', sans-serif;
+                font-size:2.2em;
+                color:$main-color;
+                background-color: white;
+                border-radius: 25px;
+                text-align: center;
+                width:23vw;
+                padding:3px;
+            }
+
+            .main-brand{
+                color:$main-color;
+                font-size:0.8em;
+                display: fixed;
+                position: absolute;
+                font-family: 'Open Sans', sans-serif;
+                padding-left: 10vh;
+                bottom: 25px;
+                left: 0;
+            }
+            
+            
+            
+        }
+    }
+}
+
+
+
+
