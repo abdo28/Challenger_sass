@@ -7,7 +7,13 @@
     <title>Welcome to challenger</title>
 </head>
 <body>
-    <div class="main">
+    
+    <div class="main" >
+        <div class="change-background" >
+            <input type="color" id="first_color"  onchange ="myFunction()"name="favcolor">
+            <input type="color" id="second_color" onchange="myFunction()" name="favcolor">
+
+        </div>
         <div class="row">
             <div class="main-text">
                 <h1>challenger</h1>
@@ -27,6 +33,14 @@
         </div>
     </div>
     
-        
+    <script>
+        function myFunction(){
+            var first_color = document.getElementById('first_color').value;
+            var second_color = document.getElementById('second_color').value;
+            document.documentElement.style.setProperty('--first-color', first_color.toString());
+            document.documentElement.style.setProperty('--second-color', second_color.toString());
+
+        }
+    </script>    
 </body>
 </html>

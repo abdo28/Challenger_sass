@@ -1,3 +1,7 @@
+:root{
+  --first-color: #f336e3;
+  --second-color: #ac51a4;
+}
 html body {
   margin: 0;
   padding: 0;
@@ -5,8 +9,8 @@ html body {
 }
 
 .main {
-  background-image: -webkit-gradient(linear, left top, right top, from(#f336e3), to(#ac51a4));
-  background-image: linear-gradient(to right, #f336e3, #ac51a4);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--first-color)), to(var(--second-color)));
+  background-image: linear-gradient(to right,var(--first-color), var(--second-color));
   height: 100%;
   width: 100%;
 }

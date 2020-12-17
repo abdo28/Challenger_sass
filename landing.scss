@@ -1,4 +1,5 @@
 $main-color: #650061;
+
 html {
     body{
     margin: 0;
@@ -8,9 +9,16 @@ html {
 }
 
 .main{  
-    background-image: linear-gradient(to right, #f336e3, #ac51a4);
+    background-image: linear-gradient(to right,var("--first-color") ,var("--second-color") );
     height: 100%;
     width:100%;
+    
+    .change-background{
+        width:30%; 
+        background-color:white;
+        height:100%; 
+    }
+
     .row{
         display:flex;
 
